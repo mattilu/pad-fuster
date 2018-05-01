@@ -1,0 +1,6 @@
+extends: airbnb-base
+rules:
+  no-plusplus:
+    - 'error'
+    - 'allowForLoopAfterthoughts': true
+  prefer-destructuring: 'off'

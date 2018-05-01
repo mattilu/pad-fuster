@@ -1,0 +1,27 @@
+{
+  "name": "pad-fuster",
+  "version": "1.0.0",
+  "description": "A Padding Oracle attack tool, like padbuster, but faster :)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "lintnofix": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca Emanuele Mattiello <lucae.mattiello@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "pad-fuster": "./cli.js"
+  },
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.4",
+    "request": "^2.85.0",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
