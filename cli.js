@@ -98,7 +98,7 @@ async function main(args) {
     let intermediate = args.intermediate;
     if (intermediate) {
       intermediate = Buffer.from(intermediate, 'hex');
-      if (ciphertext.length !== blockSize) {
+      if (intermediate.length !== blockSize) {
         die('Size of intermediate parameter must match block size');
       }
     }
